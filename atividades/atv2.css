@@ -1,0 +1,93 @@
+body, h1, p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-size: 40px;
+    color: plum;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(248, 148, 165);
+}
+
+.data {
+    float: right;
+    font-style: italic;
+    color: #777;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #c0c0c0;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    float: left;
+}
+
+li a {
+    padding: 16px;
+    background-color: #c0c0c0;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: powderblue;
+    color: white;
+}
+
+section {
+    background-color: wheat;
+    padding: 5px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.flex-item-esquerda{
+    width: 50%;
+    float: left;
+}
+
+.flex-item-direita{
+    width: 50%;
+    float: right;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.lista {
+    list-style-type: square;
+}
+
+.lista li{
+    font-style: italic;
+}
