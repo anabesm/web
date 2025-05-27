@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        aside {
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 30%;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            width: 70%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topico1, .topico2 {
+            background-color: wheat;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .menu{
+            padding: 20px;
+        }
+
+        .menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu li a:hover{
+            text-decoration: underline;
+        }
+
+        .imagem{
+            background-color: gray;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 400px) {
+            main {
+                flex-direction: column;
+            }
+
+            header, aside, article, footer {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>Desenvolvimento de Software para Web</header>
+    <main>
+        <aside>
+            <h4>Menu Lateral</h4>
+
+            <navbar class ="menu">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </navbar>
+
+        </aside>
+        <article>
+            <h2>Conteúdo Principal</h2>
+            <section class="topico1">
+                <h3>Tópico 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi iusto, corporis voluptas neque illum quis praesentium incidunt? Dolorem mollitia cupiditate culpa temporibus placeat. Alias iusto nulla ullam in. Voluptatem.</p>
+
+                <div class = "imagem">
+                    Fake img
+                </div>
+            </section>
+
+            <section class="topico2">
+                <h3>Tópico 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea delectus quibusdam vel odit quidem aliquid iure! Quisquam dolor ab voluptatibus assumenda cum sequi placeat accusamus, esse, corrupti, voluptate possimus veritatis!</p>
+
+                <div class = "imagem">
+                    Fake img
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <address>anabeatrizz@alu.ufc.br</address>
+        <p>2025.1</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

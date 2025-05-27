@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 03</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: wheat;
+        }
+
+        header {
+            text-align: center;
+            font-weight: bold;
+            padding: 30px;
+            font-size: 20px;
+        }
+
+        main {
+            padding: 30px;
+            text-align: justify;
+        }
+
+        .notification-card {
+            width: 250px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-header{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .card-content h3, .card-content p {
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <header>Questão 04</header>
+    <main>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, voluptate? Recusandae quam, inventore vero eius ducimus modi, repellat beatae odio, nesciunt reprehenderit sit ad ipsum libero quae exercitationem praesentium deleniti! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia enim ullam, eveniet est quo et magni perspiciatis numquam, delectus non ipsum velit placeat laudantium fugit dolor accusantium, itaque eaque. Distinctio.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore aspernatur, ullam est sit consectetur tenetur id earum doloribus, recusandae nemo, molestias iste repellat provident possimus itaque et sint! Dolorem, culpa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, ea. Nisi magni quo impedit dolorum amet error molestias ad, excepturi aperiam a neque numquam hic libero quam provident dolore quia.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores doloribus nisi cupiditate nostrum veniam, ex possimus error dicta qui at laboriosam ipsam, dignissimos consequuntur dolorem nobis neque magni quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga eos, consequuntur officiis provident reiciendis fugiat ad consectetur eius commodi blanditiis repudiandae. Accusamus eveniet, alias dolores esse perferendis laudantium nisi?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, voluptatum nam obcaecati dolorum quae vero ipsa nisi accusantium sunt perspiciatis esse quod iusto atque tempore error. Unde nobis aperiam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam dolorum, deserunt esse veniam dicta fugit aspernatur earum libero qui atque porro cupiditate voluptates repellendus minus! Impedit quas aperiam nisi.</p>
+    </main>
+
+    <div class="notification-card">
+        <div class="card-header">
+            <button onclick="fechar()" class="close-btn">X</button>
+        </div>
+        <div class="card-content">
+            <h3>Novidade!</h3>
+            <p>Confira nossos novos produtos.</p>
+        </div>
+    </div>
+
+    <script>
+        function fechar() {
+            document.querySelector(".notification-card").style.display = "none";
+        }
+    </script>
+</body>
+</html>
